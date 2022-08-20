@@ -13,5 +13,9 @@ public class Tdd {
 		assertEquals(0,strc.add(""));
 	}
 	
+	public void sumOfSingleDigit() {
+		assertEquals(1,strc.add("1"));
+	}
+	
 
 }
