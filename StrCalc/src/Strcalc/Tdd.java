@@ -39,4 +39,10 @@ public class Tdd {
 	}
 	
 
+	@Test
+	public void IgnoreDigitGT1000() throws Exception {
+		assertEquals(1,strc.add("1,1001"));
+	}
+	
+
 }

@@ -26,7 +26,7 @@ public class StringCalculator {
 					System.out.println(num);
 					throw new Exception("Negetive number not allowed");
 				}
-				else{
+				else if(num>0 && num<1000){
 					sum+=num;
 				}
 			
