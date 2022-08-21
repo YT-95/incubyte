@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 public class StringCalculator {
 	public int add(String number) throws Exception {
 
-		StringTokenizer st=new StringTokenizer(number,",.");
+		StringTokenizer st=new StringTokenizer(number,",.\n");
 		int sum=0,num=0;
 		while(st.hasMoreTokens())
 		{

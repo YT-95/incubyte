@@ -44,5 +44,10 @@ public class Tdd {
 		assertEquals(1,strc.add("1,1001"));
 	}
 	
+	@Test
+	public void NewLineDelSupport() throws Exception {
+		assertEquals(3,strc.add("1\n2"));
+	}
+	
 
 }
