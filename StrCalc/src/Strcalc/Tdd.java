@@ -27,5 +27,10 @@ public class Tdd {
 	public void SumofUnknownAmtOfNum() {
 		assertEquals(15,strc.add("1,2,3,4,5,"));
 	}
+	
+	@Test
+	public void SumOfAlphabetsWithNum() {
+		assertEquals(6,strc.add("1,2,a,b"));
+	}
 
 }
