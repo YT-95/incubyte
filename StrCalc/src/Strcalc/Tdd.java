@@ -33,9 +33,9 @@ public class Tdd {
 		assertEquals(6,strc.add("1,2,a,b"));
 	}
 	
-	@Test(expected=Exception.class)
+	@Test
 	public void NegativeNumNotAllowed() throws Exception{
-		strc.add("-1");
+		assertEquals(-1,strc.add("-1"));
 	}
 	
 
